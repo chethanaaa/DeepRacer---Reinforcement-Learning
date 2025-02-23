@@ -19,18 +19,6 @@ To set up the environment, run the following:
 pip install -r requirements.txt
 ```
 
-## Usage
-Run the training script:
-
-```bash
-python train.py --algorithm PPO --env CartPole-v1
-```
-
-Evaluate the trained model:
-
-```bash
-python evaluate.py --model path_to_saved_model
-```
 
 ## Dependencies
 - Python 3.x
